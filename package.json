@@ -1,0 +1,32 @@
+{
+  "name": "clutch-plugin-rickandmorty",
+  "clutch": {
+    "hasDataConnector": true,
+    "icon": "https://i.imgur.com/uWOcb9c.png"
+  },
+  "version": "0.0.1",
+  "description": "Integrate with the Rick and Morty API",
+  "main": "dist/src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -x --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node --esm src/index.ts\"",
+    "build": "tsc"
+  },
+  "repository": "https://github.com/diogomartino/clutch-plugin-rickandmorty",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
